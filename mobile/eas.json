@@ -12,10 +12,20 @@
       "distribution": "internal",
       "android": {
         "buildType": "apk"
+      },
+      "env": {
+        "EXPO_PUBLIC_API_URL": "https://redpulse-app.onrender.com/api/v1",
+        "EXPO_PUBLIC_SUPABASE_URL": "https://greyksxtmgfazebtpdsb.supabase.co",
+        "EXPO_PUBLIC_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdyZXlrc3h0bWdmYXplYnRwZHNiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTQ4OTc4MzcsImV4cCI6MjExMDQ3MzgzN30.YGB2jYLmY1b7rU9rvGdidgzNepDWbQt9nUWxht2BtuQ"
       }
     },
     "production": {
-      "autoIncrement": true
+      "autoIncrement": true,
+      "env": {
+        "EXPO_PUBLIC_API_URL": "https://redpulse-app.onrender.com/api/v1",
+        "EXPO_PUBLIC_SUPABASE_URL": "https://greyksxtmgfazebtpdsb.supabase.co",
+        "EXPO_PUBLIC_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdyZXlrc3h0bWdmYXplYnRwZHNiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTQ4OTc4MzcsImV4cCI6MjExMDQ3MzgzN30.YGB2jYLmY1b7rU9rvGdidgzNepDWbQt9nUWxht2BtuQ"
+      }
     }
   },
   "submit": {

@@ -22,7 +22,9 @@
       "package": "com.redpulse.app",
       "permissions": [
         "ACCESS_FINE_LOCATION",
-        "ACCESS_COARSE_LOCATION"
+        "ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION"
       ]
     },
     "web": {
@@ -63,11 +65,15 @@
       "reactCompiler": true
     },
     "extra": {
-      "router": {},
+      "router": {
+        "asyncRoutes": {
+          "web": true
+        }
+      },
       "eas": {
-        "projectId": "5c75c9d2-100d-46e5-affb-907ca1139d68"
+        "projectId": "2e80896c-675c-469d-a4f5-d26402f7e71d"
       }
     },
-    "owner": "iamaashirathar"
+    "owner": "akay3312"
   }
 }

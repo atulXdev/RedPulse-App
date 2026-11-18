@@ -21,7 +21,7 @@
 import { supabase } from './supabase';
 
 export const BACKEND_URL =
-  process.env.EXPO_PUBLIC_API_URL ?? 'https://redpulse-production.up.railway.app/api/v1';
+  process.env.EXPO_PUBLIC_API_URL ?? 'https://redpulse-app.onrender.com/api/v1';
 
 // We deliberately do NOT extend Error here. React Native / Hermes has a long-
 // standing Babel `wrapNativeSuper` bug that breaks `class X extends Error` at
