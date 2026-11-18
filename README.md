@@ -572,12 +572,4 @@ cd mobile && npx eas build --profile development --platform android
    - Have a screenshot or short video for any UI change, and a `Test plan` section.
 4. Reviewers will check against the [Design system](#design-system).
 
-
-
-
-
-<br />
-
-*Built in Lahore. For everyone, anywhere.*
-
 </div>
