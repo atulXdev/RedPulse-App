@@ -1,0 +1,30 @@
+services:
+  - type: web
+    name: bludstack-api
+    runtime: node              # `env: node` was the deprecated key
+    region: singapore          # closest to Pakistan / South Asia
+    plan: free                 # free tier (spins down after inactivity)
+    buildCommand: npm install
+    startCommand: node src/server.js
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 4000
+      - key: SUPABASE_URL
+        sync: false            # set manually in Render dashboard
+      - key: SUPABASE_SERVICE_ROLE_KEY
+        sync: false            # set manually — NEVER commit this
+      - key: ALLOWED_ORIGINS
+        sync: false            # comma-separated list of your frontend origins
+      - key: CRON_SECRET
+        sync: false            # REQUIRED — shared secret for /api/cron/* (fails closed in prod)
+      - key: TRUST_PROXY
+        value: "1"             # Render runs one proxy hop in front of the app
+      - key: RATE_LIMIT_WINDOW_MS
+        value: "900000"
+      - key: RATE_LIMIT_MAX
+        value: "100"
+      - key: GEO_EXPANSION_DELAY_SECONDS
+        value: "30"
