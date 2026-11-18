@@ -572,28 +572,9 @@ cd mobile && npx eas build --profile development --platform android
    - Have a screenshot or short video for any UI change, and a `Test plan` section.
 4. Reviewers will check against the [Design system](#design-system).
 
-### Sponsorship & contact
 
-If RedPulse helps someone you love, consider [sponsoring on GitHub](https://github.com/sponsors/aashir-athar) or sharing the app with a hospital near you.
 
----
 
-## License
-
-[MIT License](LICENSE) © 2026 Aashir Athar
-
-You are free to use, modify, and distribute this software with attribution. The clinical workflow (atomic accept/complete, age + cooldown enforcement, RLS posture) is intentionally permissive so other lives can be saved with it.
-
----
-
-## Author
-
-<div align="center">
-
-**Aashir Athar**
-Founder · Engineer · Designer
-
-[GitHub](https://github.com/aashir-athar) · [LinkedIn](https://www.linkedin.com/in/aashir-athar) · [Sponsor](https://github.com/sponsors/aashir-athar)
 
 <br />
 
