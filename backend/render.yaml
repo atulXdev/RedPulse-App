@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: bludstack-api
+    name: redpulse-api
     runtime: node              # `env: node` was the deprecated key
     region: singapore          # closest to Pakistan / South Asia
     plan: free                 # free tier (spins down after inactivity)
